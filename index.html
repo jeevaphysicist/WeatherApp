@@ -1,0 +1,76 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Simple Weather App</title>
+	<link rel="shortcut icon" href="02d.png" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	 rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="bo">
+
+	<div class="row">
+		<div class="heading col-12 col-sm-12 col-lg-12 col-md-12 col-xl-12">simple Weather App</div>
+	</div>
+	<div class="row se pt-4 ">
+		<div class="col-12 col-sm-12 col-lg-12 col-md-12 col-xl-12 se ">
+			<input  placeholder="Search for city" class="search  " type="text" id="submit">
+			<button class="sub my-3"onclick="my()">Submit</button>
+		</div>
+	</div>
+	
+
+	<div class="row pt-4 ">
+		<div class="col-12 col-sm-12 col-md-1 col-lg-3 col-xl-3"></div>
+		<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 my-3  ">
+			<div class="card  ">
+				<div class="row pt-4">
+					<span id="name" style="color:blue" class="col-8 text-end p-0 nam"></span>
+					<span class="col-4 text-start"><sup id="country"class="sup"></sup></span><br/>
+					</div>
+			
+					<div class="temp col-8"id=temperature></div>
+				<div id="icon" style="color:blue;border-color: black;"class="ico"></div>
+				<div id="des" class="hi"></div>
+			</div>
+			
+         </div>
+		 <div class=" col-12 col-sm-12 col-lg-1 col-xl-1 col-md-2"></div>
+		<!-- ----- -->
+		<div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3  my-3  ">
+			<div class="card">
+				<div class="row pt-4">
+					<span id="name2" style="color:blue" class="col-8 text-end p-0 nam"></span>
+					<span class="col-4 text-start"><sup id="country2"class="sup"></sup></span><br/>
+					</div>
+			
+					<div class="temp col-8"id=temperature2></div>
+				<div id="icon2" style="color:blue;border-color: black;"class="ico"></div>
+				<div id="des2" class="hi"></div>
+			</div>
+			
+		</div>
+	    <!-- ---- -->
+		<div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2"></div>
+		
+	</div>
+	
+
+	
+
+	
+	
+	<script src="script.js"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+	 integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+	</script> 
+</body>
+</html>
+
+    
+    
